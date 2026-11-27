@@ -14,7 +14,7 @@ Parameters:
 
 Usage Example:
     EXEC bronze.load_bronze;
-
+*/
 TRUNCATE TABLE bronze.crm_cust_info; --Firstly, table is truncated before uploading
 BULK INSERT bronze.crm_cust_info
 FROM 'C:\Users\Lenovo\Desktop\sql\sql-data-warehouse-project-source\sql-data-warehouse-project\01_datasets\source_crm\cust_info.csv'
